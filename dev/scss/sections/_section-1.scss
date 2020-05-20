@@ -2,8 +2,43 @@
     Section 1
 ============= */
 #section-1{
-    .grid-content{
-        
-    }
+    display: grid;
+    grid-template-areas: "section-1";
+    grid-area: section-1;
+    
 
+    #header{
+        background-image: url("../img/section-1/hero-1.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 560px;
+
+    #button{
+        h1{
+            color: $white;
+            position: relative;
+            top: 330px;
+        }
+    }
+        
+        h1{
+            color: $navy;
+            font-family: "Comfortaa", sans-serif;
+            font-size: rem-calc(32);
+            font-weight: 300;
+            position: relative;
+            top: 75px;
+            text-align: center;   
+        }
+        h2{
+            color: $aqua;
+            font-family: "Comfortaa", sans-serif;
+            font-size: rem-calc(22);
+            font-weight: 200;
+            position: relative;
+            top: 85px;
+            text-align: center;
+        }
+
+    }
 }

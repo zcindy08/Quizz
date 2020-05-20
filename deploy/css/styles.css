@@ -350,3 +350,32 @@ textarea {
 /* =============
     Section 1
 ============= */
+#section-1 {
+  display: grid;
+  grid-template-areas: "section-1";
+  grid-area: section-1; }
+  #section-1 #header {
+    background-image: url("../img/section-1/hero-1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 560px; }
+    #section-1 #header #button h1 {
+      color: #fff;
+      position: relative;
+      top: 330px; }
+    #section-1 #header h1 {
+      color: #1A4B58;
+      font-family: "Comfortaa", sans-serif;
+      font-size: 2rem;
+      font-weight: 300;
+      position: relative;
+      top: 75px;
+      text-align: center; }
+    #section-1 #header h2 {
+      color: #338595;
+      font-family: "Comfortaa", sans-serif;
+      font-size: 1.375rem;
+      font-weight: 200;
+      position: relative;
+      top: 85px;
+      text-align: center; }
